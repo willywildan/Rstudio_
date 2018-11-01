@@ -1,3 +1,5 @@
+#set (Himpunan)
+
 value <- sample(x=1:1000,100,replace = FALSE, prob = NULL)
 
 G <- matrix (value, 10, 10, TRUE)
