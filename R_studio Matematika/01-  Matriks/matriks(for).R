@@ -1,13 +1,14 @@
 for (i in 1:5){
   print(i)
 }
-
+#merubah baris 1, (+2)
 b <- matrix (1:4,2,2,TRUE)
 for(j in 1:nrow(b)){
   b[j,1] <- b[j,1]+2
 }
 b
 
+#matriks * 5
 A <- matrix (1:9,3,3,TRUE)
 for(i in 1:ncol(A)){
   for(j in 1:ncol(A)){
