@@ -1,5 +1,4 @@
-#17523195-17523196
-
+#Diferensiasi
 #nomer 1
 library(Ryacas)
 x<-Sym("x")
@@ -14,7 +13,8 @@ Simplify(deriv((2*x^2-3)/(sqrt(x)),x))
 library(Ryacas)
 x<-Sym("x")
 Simplify(deriv((x-1)/(x+1),x))
-
+#=======================================
+#fungsi
 #nomor 4
 #fungsinomer3
 f <- function(x){
@@ -39,7 +39,8 @@ f <- function(x){
 }
 
 f(5)
-
+###############################################
+#Integral
 
 #intgeralnomer1
 integrand <- function(x){
@@ -99,8 +100,6 @@ integrate(f=integrand, lower=0, upper=2)
 library(Ryacas)
 x<-Sym("x")
 integrate(x*(2-3*x)^2,x)
-
-
 
 #limit 
 
